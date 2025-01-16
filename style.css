@@ -1,16 +1,31 @@
 body {
     font-family: Arial, sans-serif;
-    background-color: #f4f4f4;
     margin: 0;
-    padding: 0;
+    padding: 20px;
+    background-color: blanchedalmond;
+}
+
+header {
+    background-color: red;
+    color: white;
+    padding: 20px;
+    text-align: center;
 }
 
 h1 {
-    color: #333;
-    text-align: center;
+    color: #1c7bd3;
+}
+
+h2 {
+    color: red;
 }
 
 p {
-    text-align: center;
-    font-size: 18px;
+    line-height: 1.6;
 }
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+}
+    
