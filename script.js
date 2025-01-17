@@ -1,9 +1,12 @@
-function showPage(pageId) {
-    // Hide all pages
-    const pages = document.querySelectorAll('.page');
-    pages.forEach(page => page.classList.remove('active'));
+// script.js
+function showSection(sectionId) {
+  // ซ่อนทุก section
+  const sections = document.querySelectorAll('.section');
+  sections.forEach(section => {
+    section.classList.remove('active');
+  });
 
-    // Show the selected page
-    const selectedPage = document.getElementById(pageId);
-    selectedPage.classList.add('active');
+  // แสดง section ที่เลือก
+  const activeSection = document.getElementById(sectionId);
+  activeSection.classList.add('active');
 }
